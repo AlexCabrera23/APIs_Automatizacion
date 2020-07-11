@@ -12,5 +12,5 @@ before_script:
 
 script:
 
-- newman run APIs_Automatizacion/API_Blacklist.postman_collection.json
+- node_modules/.bin/newman run APIs_Automatizacion/API_Blacklist.postman_collection.json
 #- node_modules/.bin/newman run APIs_Automatizacion/API nullification - Anular transacciones.postman_collection.json
